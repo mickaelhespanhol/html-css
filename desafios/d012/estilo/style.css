@@ -83,12 +83,52 @@ header a:hover{
     max-width: 380px;
 }
 
-#pad{
+.pad{
     padding-bottom: 50px;
 }
-.s4{
+#s4{
+    background-image: url(../imagens/background002.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    color: white;
+    font-size: 2.2em;
+    padding: 70px 0px 40px 40px;
+}
 
+#s4 > p{
+    max-width: 410px;
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 5px;
+}
+
+#s5{
+    background-color: white;
+   
+    font-size: 2.2em;
+    padding: 80px 0px 60px 40px;
+}
+
+#s5 > p{
+    max-width: 380px;
 }
 
 
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 
+}
+
+footer  a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+footer  a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
