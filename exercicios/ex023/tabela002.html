@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        td, th{
+            border: 1px solid black; 
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: rgb(26, 103, 170);
+        }
+        thead{
+           
+            background-color: gray;
+            color: white;
+        }
+
+        tfoot{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>roraima</td>
+                <td>256549</td>
+            </tr>
+        </tbody>
+            
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
