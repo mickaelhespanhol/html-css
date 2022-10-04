@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore deserunt pariatur voluptatum iusto doloremque incidunt mollitia voluptate laboriosam ratione quam vero beatae, excepturi dolores totam, ab esse quaerat, quisquam adipisci.</p>
+
+    <ul>
+        <li><a target="frame" href="paginasextras/pag001.html">Primeira pagina</a></li>
+        <li><a target="frame" href="paginasextras/pag002.html">segunda página</a></li>
+        <li><a target="frame"   href="paginasextras/pag003.html">terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias ut, nostrum eaque voluptatibus dolores recusandae aliquam doloremque adipisci placeat provident autem impedit deleniti culpa libero obcaecati, soluta quasi, dolorem suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste aliquid sed voluptate, delectus dolore doloribus quidem vel animi ab explicabo rerum quas dolor voluptas dicta eius! Facilis, magni! Dolorum, eius.</p>
+    
+
+    <iframe name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi in quaerat rerum obcaecati quasi sunt dolorem autem cumque accusamus vel amet soluta sint qui numquam sapiente quod, minus ut.rem</p>" >
+        <p>infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa illo possimus odio at qui ratione enim voluptas, rem quasi dolores est aliquid nihil a ea veritatis. Rem distinctio ullam qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, voluptatem est eos minima tempore temporibus id necessitatibus nobis, sunt exercitationem magnam quam voluptatibus eveniet totam illo inventore? Excepturi, accusantium nihil?</p>
+</body>
+</html>
